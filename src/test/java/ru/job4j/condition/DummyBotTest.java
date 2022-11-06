@@ -8,7 +8,7 @@ class DummyBotTest {
 
     @Test
     public void whenGreetBot() {
-        String in = "Hi, Bot";
+        String in = "Hi, Bot.";
         String result = DummyBot.answer(in);
         String expected = "Hi, SmartAss.";
         assertThat(result).isEqualTo(expected);
@@ -16,9 +16,9 @@ class DummyBotTest {
 
     @Test
     public void whenByeBot() {
-        String in = "Bye";
+        String in = "Bye.";
         String result = DummyBot.answer(in);
-        String expected = "See you later";
+        String expected = "See you later.";
         assertThat(result).isEqualTo(expected);
     }
 
