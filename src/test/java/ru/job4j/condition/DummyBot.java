@@ -12,7 +12,9 @@ public class DummyBot {
     }
 
     public static void main(String[] args) {
-        System.out.println(answer("how are you?"));
-        System.out.println(answer("Hi, Bot"));
+        String rsl = DummyBot.answer("how are you?");
+        System.out.println(rsl);
+        rsl = DummyBot.answer("Hi, Bot");
+        System.out.println(rsl);
     }
 }
