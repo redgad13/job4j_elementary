@@ -13,6 +13,7 @@ public class MaxTest {
         int out = Max.max(a, b);
         assertThat(out).isEqualTo(expected);
     }
+
     @Test
     public void whenA3B3Then3() {
         int a = 3;
@@ -21,6 +22,7 @@ public class MaxTest {
         int out = Max.max(a, b);
         assertThat(out).isEqualTo(expected);
     }
+
     @Test
     public void whenA6B5Then6() {
         int a = 6;
