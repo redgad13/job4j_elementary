@@ -15,7 +15,7 @@ class PrimeNumberTest {
     }
 
     @Test
-    void when11(){
+    void when11() {
         int num = 11;
         int out = PrimeNumber.count(num);
         int expected = 5;
@@ -23,7 +23,7 @@ class PrimeNumberTest {
     }
 
     @Test
-    void when2(){
+    void when2() {
         int num = 2;
         int out = PrimeNumber.count(num);
         int expected = 1;
