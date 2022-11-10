@@ -24,7 +24,7 @@ class CheckPrimeNumberTest {
     public void when1() {
         int num = 1;
         boolean out = CheckPrimeNumber.check(num);
-        assertThat(out).isTrue();
+        assertThat(out).isFalse();
     }
 
     @Test
