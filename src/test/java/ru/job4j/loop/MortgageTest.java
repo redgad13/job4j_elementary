@@ -8,10 +8,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 class MortgageTest {
 
     @Test
-    void whenAmount100Salary50Percent0dot2ThenYear3() {
+    void whenAmount100Salary50Percent2ThenYear3() {
         double amount = 100.0;
         double salary = 50.0;
-        double percent = 0.2;
+        double percent = 2;
         int out = Mortgage.year(amount, salary, percent);
         int expected = 3;
         assertThat(out).isEqualTo(expected);
